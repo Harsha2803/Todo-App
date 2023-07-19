@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# 📅 To-Do List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+http://Harsha2803.github.io/Todo-App
 
-## Available Scripts
+A website for organizing tasks (to-do list) built with React JS, Tailwind CSS, TypeScript, Redux Toolkit, and more.
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+- This application allows you to organize your tasks with the following details: title, description, date, mark as complete, and mark as important.
+- The tasks are organized into different routes: tasks for today, important tasks, incomplete tasks, complete tasks, all tasks, and tasks by directory (folder). Directories and tasks can be edited or deleted. Additionally, there is a main directory called "Main" that cannot be edited or deleted.
+- The task list can be sorted by: closest due date, farthest due date, complete tasks, or incomplete tasks.
+- You can also search for specific tasks using the search field.
+- Tasks scheduled for today are shown in the user section and in notifications.
+- Task, directory, and dark mode data are saved in the localStorage.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Objective
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The main objective of this project was to apply knowledge in TypeScript, Tailwind CSS, Redux Toolkit, and React Js.
 
-### `npm test`
+## Tools Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React JS
+- TypeScript
+- Tailwind CSS
+- Redux Toolkit
+- React Router DOM
+- HTML
+- Figma (prototyping)
 
-### `npm run build`
+## How to Test
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can access the project here: # 📅 To - Do List
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+A website for organizing tasks (to-do list) built with React JS, Tailwind CSS, TypeScript, Redux Toolkit, and more.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Description
 
-### `npm run eject`
+- This application allows you to organize your tasks with the following details: title, description, date, mark as complete, and mark as important.
+- The tasks are organized into different routes: tasks for today, important tasks, incomplete tasks, complete tasks, all tasks, and tasks by directory (folder). Directories and tasks can be edited or deleted. Additionally, there is a main directory called "Main" that cannot be edited or deleted.
+- The task list can be sorted by: closest due date, farthest due date, complete tasks, or incomplete tasks.
+- You can also search for specific tasks using the search field.
+- Tasks scheduled for today are shown in the user section and in notifications.
+- Task, directory, and dark mode data are saved in the localStorage.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Objective
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The main objective of this project was to apply knowledge in TypeScript, Tailwind CSS, Redux Toolkit, and React Js.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Tools Used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- React JS
+- TypeScript
+- Tailwind CSS
+- Redux Toolkit
+- React Router DOM
+- HTML
+- Figma (prototyping)
 
-## Learn More
+## How to Test
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can access the project here: http://Harsha2803.github.io/Todo-App
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Alternatively, you can run it on your local machine:
 
-### Code Splitting
+``` 
+git clone https://github.com/Harsha2803/Todo-App
+cd tasks-app
+npm install
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Notes
 
-### Analyzing the Bundle Size
+- Task, directory, and dark mode data are saved in your browser's localStorage. You can click on the "delete all data" button to remove them from the localStorage.
+- For demonstrative purposes, the application comes with a default list of 3 tasks and 1 directory named "Main."
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Alternatively, you can run it on your local machine:
 
-### Making a Progressive Web App
+``` 
+git clone https://github.com/Harsha2803/Todo-App.git
+cd tasks-app
+npm install
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Notes
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Task, directory, and dark mode data are saved in your browser's localStorage. You can click on the "delete all data" button to remove them from the localStorage.
+- For demonstrative purposes, the application comes with a default list of 3 tasks and 1 directory named "Main."
