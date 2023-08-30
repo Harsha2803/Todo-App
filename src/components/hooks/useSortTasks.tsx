@@ -62,7 +62,7 @@ const useSortTasks = (tasks: Task[]) => {
     if (sortedBy === "completed-first") {
       setSortedTasks(sortByCompletedStatus(true));
     }
-    if (sortedBy === "uncompleted-first") {
+    if (sortedBy === "Incomplete-first") {
       setSortedTasks(sortByCompletedStatus(false));
     }
   }, [sortedBy, tasks]);

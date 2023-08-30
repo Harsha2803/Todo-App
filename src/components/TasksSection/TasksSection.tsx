@@ -22,8 +22,8 @@ const TasksSection: React.FC = () => {
           element={<DoneTasks done={true} title="Completed tasks" />}
         />
         <Route
-          path="/uncompleted"
-          element={<DoneTasks done={false} title="Uncompleted tasks" />}
+          path="/Incomplete"
+          element={<DoneTasks done={false} title="Incomplete tasks" />}
         />
         <Route path="/results" element={<SearchResults />} />
         <Route path="/dir/:dir" element={<Directory />} />

@@ -17,7 +17,7 @@ const BtnToggleCompleted: React.FC<{
 
   return (
     <button
-      title={taskCompleted ? "mark as uncompleted" : "mark as completed"}
+      title={taskCompleted ? "mark as Incomplete" : "mark as completed"}
       className={`${
         taskCompleted
           ? "bg-emerald-200 text-emerald-800 "
@@ -26,7 +26,7 @@ const BtnToggleCompleted: React.FC<{
       onClick={() => toggleTaskCompleted(taskId)}
     >
       <span className="block py-1 px-3 absolute invisible sm:static sm:visible">
-        {taskCompleted ? "completed" : "uncompleted"}
+        {taskCompleted ? "completed" : "Incomplete"}
       </span>
       <span className=" sm:hidden w-6 h-6 grid place-items-center">
         {taskCompleted ? (

@@ -7,7 +7,7 @@ const sortValues = [
   { value: "min-date", title: "Earlier first" },
   { value: "max-date", title: "Later first" },
   { value: "completed-first", title: "Completed first" },
-  { value: "uncompleted-first", title: "Uncompleted first" },
+  { value: "Incomplete-first", title: "Incomplete first" },
 ];
 
 const ButtonsSort: React.FC<{

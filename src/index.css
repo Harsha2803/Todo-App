@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 .inputStyles {
-  @apply bg-slate-100 text-slate-600 dark:text-slate-200 rounded-lg p-3 outline-transparent border-2 border-transparent hover:border-violet-600 focus:border-violet-600 focus:outline-none transition dark:bg-slate-800;
+  @apply bg-slate-100 text-slate-600 dark:text-slate-200 rounded-lg p-3 outline-transparent border-2 border-transparent hover:border-red-600 focus:border-red-600 focus:outline-none transition dark:bg-slate-800;
 }
 
 .btn {
-  @apply bg-violet-600 hover:bg-violet-700 py-3 px-6 text-slate-50 rounded-lg w-auto transition dark:bg-violet-800 dark:hover:bg-violet-900;
+  @apply bg-red-800 hover:bg-violet-700 py-3 px-6 text-slate-50 rounded-lg w-auto transition dark:bg-red-800 dark:hover:bg-violet-700;
 }
 
 .btn:active {
@@ -16,13 +16,13 @@
 
 @layer components {
   .tasksList > li:first-of-type article {
-    @apply bg-violet-600 text-slate-100 dark:bg-violet-800;
+    @apply bg-red-800 hover:bg-violet-700 text-slate-100 dark:bg-red-800 dark:hover:bg-violet-700;
   }
   .tasksList > li:first-of-type article .description {
-    @apply text-violet-300;
+    @apply text-violet-800;
   }
   .tasksList > li:first-of-type article > div {
-    @apply border-violet-500 dark:border-violet-700;
+    @apply border-violet-800 dark:border-red-700;
   }
   .listView1 article {
     @apply h-40;
@@ -51,10 +51,10 @@
     @apply mb-4 text-slate-600 dark:text-slate-500;
   }
   .barProgress {
-    @apply bg-slate-200 w-full h-2 rounded-full overflow-hidden dark:bg-slate-700/[.3];
+    @apply bg-slate-200 w-full h-3 rounded-full overflow-hidden dark:bg-slate-700/[.3];
   }
   .barProgress > div {
-    @apply bg-violet-600 h-full;
+    @apply bg-red-600 h-full;
   }
   .itemDirectory > .buttonsDir {
     @apply xl:opacity-0 transition opacity-100;

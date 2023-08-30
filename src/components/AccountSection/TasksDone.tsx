@@ -60,7 +60,7 @@ const TasksDone: React.FC = () => {
           <span className="mb-2 block">Today's tasks</span>
           <ul>
             {todaysTasksToShow.map((task) => (
-              <li key={task.id} className="py-2 pl-6 text-slate-200 list-item">
+              <li key={task.id} className="py-2 pl-6 text-slate-500 dark:text-slate-100 list-item">
                 <span>{task.title}</span>
               </li>
             ))}

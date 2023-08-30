@@ -80,7 +80,7 @@ const SearchField: React.FC = () => {
                 </ul>
                 <button
                   onClick={navigateToSearchResults}
-                  className="bg-rose-100 w-full p-2 rounded-md text-rose-600 dark:bg-slate-700/[.3] dark:text-slate-200"
+                  className="bg-red-800 w-full p-2 rounded-md text-slate-100 "
                 >
                   All results for "{searchInputValue}"
                 </button>

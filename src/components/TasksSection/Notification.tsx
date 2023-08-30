@@ -18,14 +18,14 @@ const Notification: React.FC = () => {
 
   const todaysTasks = useTodayTasks();
 
-  const { tasks: uncompletedTasks } = useCompletedTasks({
+  const { tasks: IncompleteTasks } = useCompletedTasks({
     tasks: todaysTasks,
     done: false,
   });
 
-  const tasksToShow = uncompletedTasks.slice(0, 3);
+  const tasksToShow = IncompleteTasks.slice(0, 3);
 
-  const moreTasksToShow = uncompletedTasks.length > tasksToShow.length;
+  const moreTasksToShow = IncompleteTasks.length > tasksToShow.length;
   return (
     <div className="sm:mr-4 md:mr-6 ml-auto grid place-items-center relative">
       <button
@@ -34,14 +34,14 @@ const Notification: React.FC = () => {
         className={`relative ${tasksToShow.length ? classHasNotification : ""}`}
         title="see notifications"
       >
-        <IconBell className="fill-violet-600 w-5 h-5 md:w-6 md:h-6 dark:fill-violet-800" />
+        <IconBell className="fill-violet-500 w-5 h-5 md:w-6 md:h-6 dark:fill-red-500" />
       </button>
       {notificationIsVisible && (
         <div className="absolute bg-slate-100 dark:bg-slate-800 top-full rounded-md right-0 p-3 w-52 border border-slate-300 dark:border-slate-700">
-          {uncompletedTasks.length > 0 ? (
+          {IncompleteTasks.length > 0 ? (
             <div>
               <span className="dark:text-slate-200 font-medium">
-                You have {uncompletedTasks.length} uncompleted tasks today:
+                You have {IncompleteTasks.length} Incomplete tasks today:
               </span>
               <ul>
                 {tasksToShow.map((task) => (
